@@ -27,27 +27,23 @@
 ---
 ## 🗂️ Struktur Folder
 
-```plaintext
 SkinCheck/
 ├── .streamlit/
-│   └── app.toml               # Konfigurasi port Streamlit
+│ └── app.toml # Konfigurasi port Streamlit
 ├── dataSetDigistar/
-│   ├── test/
-│   │   ├── benign/
-│   │   └── malignant/
-│   └── train/
-│       ├── benign/
-│       └── malignant/
-├── mesin.py                   # Kode untuk load dataset
-├── save.py                    # Kode untuk menyimpan file .keras di lokal
-├── app.py                     # Program utama (streamlit run app.py)
-├── skincheck_model_tf.keras  # Model hasil pelatihan
-├── requirements.txt           # Dependensi aplikasi
-└── README.md                  # Dokumentasi proyek
+│ ├── test/
+│ │ ├── benign/
+│ │ └── malignant/
+│ └── train/
+│ ├── benign/
+│ └── malignant/
+├── mesin.py # Kode untuk load dataset
+├── save.py # Kode untuk menyimpan file .keras di lokal
+├── app.py # Program utama (streamlit run app.py)
+├── skincheck_model_tf.keras # Model hasil pelatihan
+├── requirements.txt # Dependensi aplikasi
+└── README.md # Dokumentasi proyek
 
-
-
----
 
 ## ⚙️ Cara Menjalankan di Lokal
 
